@@ -1,0 +1,306 @@
+*{
+    user-select: none;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+    background-color:white ;
+    align-items:center;
+    text-align: center;
+    position: fixed;
+    top:0;
+    }
+.first{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    background:url("TASK/images/HeroRDC.svg") ;
+    background-repeat:no-repeat;
+}
+.second{
+    width: 1200px;
+    height: 100px;
+    box-shadow:1px -1px 10px 0px black,-1px 1px 10px 0px grey;
+    border: 1px solid gray;
+    display: flex;
+    margin:auto;
+    border-radius:20px;
+    margin-top:-150px;
+    background-color: white;
+
+}
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.third,.fourth,.fifth{
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    padding-left: 40px;
+    margin-right:  10px;
+    border-radius: 20px;
+
+}
+.sixth{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(231, 231, 252);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:50px ;
+}
+.seventh{
+    width: 100%;
+    height: 170px;
+    background-color:rgb(189, 182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:30px ;
+}
+
+.eighth{
+    width:100%;
+    height:750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:30px ;
+}
+.ninth{
+    width:1100px;
+    height:150px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 70px;
+    box-shadow:1px -1px 10px 0px black,-1px 1px 10px 0px grey;
+}
+.tenth{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+}
+.eleventh{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.box1,.box2,.box3,.box4,.box5{
+    width: 200px;
+    height: 90px;
+    margin: auto;
+    margin-left: 15px;
+    border-radius: 10px;
+    transition: linear;
+}
+
+.book{
+    width:300px ;
+    border-radius: 20px;
+    font-size: 22px;
+    
+}
+.box1:hover{  
+    border:1px solid black;
+    background-color: rgb(228, 241, 253);  
+}
+.box2:hover{  
+    border:1px solid black;
+    background-color: rgb(228, 241, 253);  
+}
+.box3:hover{  
+    border:1px solid black;
+    background-color: rgb(228, 241, 253);  
+}
+.box4:hover{  
+    border:1px solid black;  
+    background-color: rgb(228, 241, 253);
+}
+.box5:hover{  
+    border:1px solid black;  
+}
+.box6{
+    width: 300px;
+    height: 300px;   
+}
+.box7{
+    width: 400px;  
+    text-align: center;   
+}
+.box8{
+    width: 300px;
+}
+.box9{ 
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.box10{
+    display: flex;
+  gap: 20px;  
+    
+  text-align: center;
+  justify-content: center;
+}
+.box11{
+   gap: 20px;
+  display: flex; 
+  text-align: center;
+  justify-content: center; 
+}
+input{
+    border: none;
+    background-color: transparent;
+}
+
+
+h1{
+    text-align:center;   
+}
+h3{
+    text-align:center;   
+    margin-bottom: 10px;  
+}
+.image-box1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 350px;
+    
+    
+}
+.image-box2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 350px;    
+}
+.image1,.image2,.image3,.image4,.image5,.image6{
+    width: 300px;
+    height: 300px;
+    text-align-last: center;
+    border-radius: 20px;
+    transition:all 1s  ease-in-out;
+}
+.image1:hover{
+    transform:scale(1.1) ;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;    
+}
+.image2:hover{
+    transform:scale(1.1) ;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+.image3:hover{
+    transform:scale(1.1) ;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+.image4:hover{
+    transform:scale(1.1) ;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+.image6:hover{
+    transform:scale(1.1) ;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+.image5:hover{
+    transform:scale(1.1) ;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+.box12{
+    width: 700px;
+    height: 150px;
+}
+.box13{
+    width: 300px;
+    height: 150px;
+    gap: 20px;
+    justify-content: space-around;
+}
+.foot{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.image7{
+    width: 300px;
+    height: 80px;
+    display: flex;
+   
+}
+.image8{
+    width: 300px;
+    height: 180px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.image9{
+width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.box14{
+    width:300px ;
+    height: 300px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.box15,.box16,.box17{
+    width:100px ;
+    height: 500px;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.box18{
+    width:150px ;
+    height: 500px;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.text{
+    margin: 30px 0px 20px 0px;
+}
+.text1{
+    margin: 30px 0px 5px 0px;
+}
+.text2{
+    margin: 30px 0px 5px 0px;
+}
+.text3{
+    margin: 30px 0px 5px 0px;
+}
